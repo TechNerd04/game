@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Host - Duo Quiz</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="row" style="justify-content: space-between; align-items: center;">
+        <div>
+          <div class="big">Host</div>
+          <div class="hint">Create a room, share the code with 2 players.</div>
+        </div>
+        <button id="createRoomBtn">Create Room</button>
+      </div>
+
+      <hr />
+
+      <div class="row" style="align-items:center;">
+        <div>Room Code:</div>
+        <div class="badge" id="roomCode">—</div>
+        <div class="badge" id="stateBadge">lobby</div>
+      </div>
+
+      <div class="row">
+        <div class="card" style="flex:1;">
+          <div><b>Players</b></div>
+          <div id="playersList" class="hint">Waiting...</div>
+        </div>
+        <div class="card" style="flex:1;">
+          <div><b>Scores</b></div>
+          <div id="scoresList" class="hint">—</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div><b>Turn</b></div>
+        <div id="turnInfo" class="hint">—</div>
+      </div>
+
+      <div class="card">
+        <div><b>Pending pick</b></div>
+        <div id="pendingInfo" class="hint">No pending pick.</div>
+      </div>
+
+      <div class="card">
+        <div class="row" style="justify-content: space-between; align-items:center;">
+          <div><b>Grid (Host must confirm chosen number)</b></div>
+          <div class="timer">Timer: <span id="timer">—</span></div>
+        </div>
+        <div class="grid" id="grid"></div>
+      </div>
+
+      <div class="card">
+        <div><b>Question</b></div>
+        <div id="questionText" class="hint">—</div>
+        <div id="optionsHost" class="hint"></div>
+        <div id="roundMsg" class="hint"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  
+  <script>
+    window.DUO_ROLE = "host";
+  </script>
+
+  <script src="/client.js"></script>
+  
+</body>
+</html>

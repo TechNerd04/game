@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Player - Duo Quiz</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="big">Player</div>
+      <p class="hint">Join with the room code shown on the host screen.</p>
+
+      <div class="row">
+        <input id="codeInput" placeholder="Room code (6 digits)" />
+        <input id="nameInput" placeholder="Your name" />
+        <button id="joinBtn">Join</button>
+      </div>
+
+      <div class="row">
+        <div>Room:</div><div class="badge" id="joinedRoom">—</div>
+        <div class="badge" id="turnBadge">not your turn</div>
+      </div>
+
+      <div class="card">
+        <div><b>Pick a number (only if it's your turn)</b></div>
+        <div class="grid" id="pickGrid"></div>
+        <div id="pickMsg" class="hint"></div>
+      </div>
+
+      <div class="card">
+        <div class="row" style="justify-content: space-between; align-items:center;">
+          <div><b>Question</b></div>
+          <div class="timer">Timer: <span id="timer">—</span></div>
+        </div>
+        <div id="questionText" class="hint">Waiting...</div>
+        <div id="options"></div>
+        <div id="answerMsg" class="hint"></div>
+      </div>
+
+      <div class="card">
+        <div><b>Scores</b></div>
+        <div id="scores" class="hint">—</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    window.DUO_ROLE = "player";
+  </script>
+  <script src="/client.js"></script>
+  
+</body>
+</html>
