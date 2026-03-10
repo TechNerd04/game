@@ -1,0 +1,61 @@
+[
+  { "id": 1, "category": "General", "difficulty": 1, "question": "What is the capital of France?", "options": ["Paris","Rome","Berlin","Madrid"], "answerIndex": 0 },
+  { "id": 2, "category": "General", "difficulty": 1, "question": "Which planet is known as the Red Planet?", "options": ["Venus","Mars","Jupiter","Saturn"], "answerIndex": 1 },
+  { "id": 3, "category": "Math", "difficulty": 1, "question": "What is 9 + 7?", "options": ["14","15","16","17"], "answerIndex": 2 },
+  { "id": 4, "category": "Science", "difficulty": 1, "question": "Water freezes at what temperature (°C)?", "options": ["0","10","-10","100"], "answerIndex": 0 },
+  { "id": 5, "category": "CS", "difficulty": 1, "question": "Which data structure uses FIFO?", "options": ["Stack","Queue","Tree","Graph"], "answerIndex": 1 },
+
+  { "id": 6, "category": "General", "difficulty": 1, "question": "How many days are in a leap year?", "options": ["365","366","364","360"], "answerIndex": 1 },
+  { "id": 7, "category": "Math", "difficulty": 1, "question": "What is 12 × 3?", "options": ["24","36","30","48"], "answerIndex": 1 },
+  { "id": 8, "category": "Science", "difficulty": 1, "question": "Which gas do plants absorb?", "options": ["Oxygen","Nitrogen","Carbon Dioxide","Helium"], "answerIndex": 2 },
+  { "id": 9, "category": "General", "difficulty": 1, "question": "Which ocean is the largest?", "options": ["Atlantic","Indian","Pacific","Arctic"], "answerIndex": 2 },
+  { "id": 10, "category": "CS", "difficulty": 1, "question": "Binary numbers use which digits?", "options": ["0 and 1","1 and 2","0 and 2","2 and 3"], "answerIndex": 0 },
+
+  { "id": 11, "category": "Math", "difficulty": 2, "question": "What is the square root of 144?", "options": ["10","11","12","13"], "answerIndex": 2 },
+  { "id": 12, "category": "Science", "difficulty": 2, "question": "What part of the cell contains DNA?", "options": ["Nucleus","Ribosome","Membrane","Cytoplasm"], "answerIndex": 0 },
+  { "id": 13, "category": "General", "difficulty": 2, "question": "Which country has the city of Tokyo?", "options": ["China","Japan","Korea","Thailand"], "answerIndex": 1 },
+  { "id": 14, "category": "CS", "difficulty": 2, "question": "Time complexity of binary search (average)?", "options": ["O(n)","O(log n)","O(n log n)","O(1)"], "answerIndex": 1 },
+  { "id": 15, "category": "Math", "difficulty": 2, "question": "What is 15% of 200?", "options": ["15","20","30","40"], "answerIndex": 2 },
+
+  { "id": 16, "category": "General", "difficulty": 2, "question": "Which is the largest continent?", "options": ["Africa","Asia","Europe","South America"], "answerIndex": 1 },
+  { "id": 17, "category": "Science", "difficulty": 2, "question": "Which element has chemical symbol O?", "options": ["Gold","Oxygen","Osmium","Iron"], "answerIndex": 1 },
+  { "id": 18, "category": "CS", "difficulty": 2, "question": "Which language runs in the browser?", "options": ["C++","Python","JavaScript","Java"], "answerIndex": 2 },
+  { "id": 19, "category": "Math", "difficulty": 2, "question": "What is 7^2?", "options": ["14","49","21","28"], "answerIndex": 1 },
+  { "id": 20, "category": "General", "difficulty": 2, "question": "How many letters are in the English alphabet?", "options": ["24","25","26","27"], "answerIndex": 2 },
+
+  { "id": 21, "category": "CS", "difficulty": 3, "question": "What does HTTP stand for?", "options": ["HyperText Transfer Protocol","High Transfer Text Program","Hyper Transfer Text Process","Home Tool Transfer Protocol"], "answerIndex": 0 },
+  { "id": 22, "category": "CS", "difficulty": 3, "question": "Which is NOT a relational database?", "options": ["PostgreSQL","MySQL","MongoDB","SQLite"], "answerIndex": 2 },
+  { "id": 23, "category": "Math", "difficulty": 3, "question": "If x=3, what is 2x^3?", "options": ["18","27","54","9"], "answerIndex": 2 },
+  { "id": 24, "category": "Science", "difficulty": 3, "question": "What is the speed of light closest to?", "options": ["3×10^8 m/s","3×10^6 m/s","3×10^5 km/s","3×10^3 km/s"], "answerIndex": 0 },
+  { "id": 25, "category": "General", "difficulty": 3, "question": "Which instrument measures earthquakes?", "options": ["Thermometer","Seismograph","Barometer","Altimeter"], "answerIndex": 1 },
+
+  { "id": 26, "category": "CS", "difficulty": 3, "question": "Which sorting algorithm is typically O(n log n) average?", "options": ["Bubble sort","Insertion sort","Merge sort","Selection sort"], "answerIndex": 2 },
+  { "id": 27, "category": "Math", "difficulty": 3, "question": "Solve: 3(2x-1)=15", "options": ["x=2","x=3","x=4","x=5"], "answerIndex": 1 },
+  { "id": 28, "category": "Science", "difficulty": 3, "question": "Which blood type is considered the universal donor?", "options": ["A","B","AB","O negative"], "answerIndex": 3 },
+  { "id": 29, "category": "General", "difficulty": 3, "question": "Which desert is the largest hot desert?", "options": ["Gobi","Sahara","Kalahari","Atacama"], "answerIndex": 1 },
+  { "id": 30, "category": "CS", "difficulty": 3, "question": "In Big-O, which grows fastest?", "options": ["O(log n)","O(n)","O(n log n)","O(n^2)"], "answerIndex": 3 },
+
+  { "id": 31, "category": "Math", "difficulty": 4, "question": "What is the derivative of x^2?", "options": ["x","2x","x^3","2"], "answerIndex": 1 },
+  { "id": 32, "category": "CS", "difficulty": 4, "question": "Which is a correct IPv4 address format?", "options": ["192.168.1.1","192:168:1:1","192-168-1-1","192/168/1/1"], "answerIndex": 0 },
+  { "id": 33, "category": "Science", "difficulty": 4, "question": "pH less than 7 indicates what?", "options": ["Neutral","Basic","Acidic","Salty"], "answerIndex": 2 },
+  { "id": 34, "category": "CS", "difficulty": 4, "question": "Which layer does IP operate at in the OSI model?", "options": ["Application","Transport","Network","Data Link"], "answerIndex": 2 },
+  { "id": 35, "category": "Math", "difficulty": 4, "question": "What is 2^10?", "options": ["512","1024","2048","256"], "answerIndex": 1 },
+
+  { "id": 36, "category": "General", "difficulty": 4, "question": "Which country hosted the 2020 Olympics (held in 2021)?", "options": ["China","Japan","Brazil","UK"], "answerIndex": 1 },
+  { "id": 37, "category": "CS", "difficulty": 4, "question": "Which symbol is used for 'AND' in many programming languages?", "options": ["||","&&","==","!="], "answerIndex": 1 },
+  { "id": 38, "category": "Science", "difficulty": 4, "question": "What is the chemical formula for table salt?", "options": ["NaCl","KCl","Na2CO3","H2O"], "answerIndex": 0 },
+  { "id": 39, "category": "Math", "difficulty": 4, "question": "If a triangle has angles 30° and 60°, the third is:", "options": ["60°","90°","30°","120°"], "answerIndex": 1 },
+  { "id": 40, "category": "General", "difficulty": 4, "question": "Which organ pumps blood?", "options": ["Lung","Brain","Heart","Liver"], "answerIndex": 2 },
+
+  { "id": 41, "category": "CS", "difficulty": 5, "question": "What does ACID stand for in databases?", "options": ["Atomicity Consistency Isolation Durability","Accuracy Consistency Integrity Durability","Atomicity Correctness Isolation Dependency","Availability Consistency Isolation Durability"], "answerIndex": 0 },
+  { "id": 42, "category": "CS", "difficulty": 5, "question": "Which is a common hashing collision resolution strategy?", "options": ["DFS","Chaining","Binary search","Recursion"], "answerIndex": 1 },
+  { "id": 43, "category": "Math", "difficulty": 5, "question": "What is the sum of interior angles of a hexagon?", "options": ["360°","540°","720°","900°"], "answerIndex": 2 },
+  { "id": 44, "category": "Science", "difficulty": 5, "question": "Which particle has a negative charge?", "options": ["Proton","Neutron","Electron","Photon"], "answerIndex": 2 },
+  { "id": 45, "category": "CS", "difficulty": 5, "question": "Which traversal is BFS best described as?", "options": ["Depth-first","Level-order","Random-order","Backtracking"], "answerIndex": 1 },
+
+  { "id": 46, "category": "Math", "difficulty": 5, "question": "Solve: log10(1000) =", "options": ["2","3","4","10"], "answerIndex": 1 },
+  { "id": 47, "category": "CS", "difficulty": 5, "question": "What does JSON stand for?", "options": ["Java Source Object Notation","JavaScript Object Notation","Joint System Object Network","Java Standard Output Name"], "answerIndex": 1 },
+  { "id": 48, "category": "General", "difficulty": 5, "question": "Which is the longest river in the world (commonly cited)?", "options": ["Amazon","Nile","Yangtze","Mississippi"], "answerIndex": 1 },
+  { "id": 49, "category": "Science", "difficulty": 5, "question": "Which vitamin is primarily produced from sunlight?", "options": ["Vitamin A","Vitamin B12","Vitamin C","Vitamin D"], "answerIndex": 3 },
+  { "id": 50, "category": "CS", "difficulty": 5, "question": "Which of these is a symmetric encryption algorithm?", "options": ["RSA","ECC","AES","DSA"], "answerIndex": 2 }
+]
